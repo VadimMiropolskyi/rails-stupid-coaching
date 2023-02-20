@@ -1,7 +1,14 @@
 <%# <h1>Our first view 🚀</h1> %>
 
-<form action="answer" data-turbo="false">
+<%# <form action="answer" data-turbo="false">
   <input type="text" name="question">
-  <input type="submit" value="Ask!">
-</form>
+  <input type="submit" value="Ask!" class="btn btn-primary">
+</form> %>
+
+<div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+    <form action="answer" data-turbo="false" class="text-center">
+        <input type="text" name="question" class="form-control">
+        <button type="submit" class="btn btn-primary mt-3">Ask!</button>
+    </form>
+</div>
 
